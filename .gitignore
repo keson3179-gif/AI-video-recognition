@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.env
+.env.*
+
+# API keys / local secrets
+*.pem
+
+# 分析輸出（可選：若要一併上傳請刪除此行）
+video_analysis_results_*.csv
+video_analysis_results_*.xlsx
+
+# 測試影片（體積大，請本機自行放置）
+test_videos/
+
+# IDE
+.idea/
+.vscode/
